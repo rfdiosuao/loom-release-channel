@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "product":  "LOOM",
+    "channel":  "rc",
+    "version":  "2.1.19-rc.20260628",
+    "publishedAt":  "2026-06-28T12:44:15Z",
+    "minLauncherVersion":  "2.1.19",
+    "mirrors":  [
+                    "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
+                ],
+    "layers":  [
+                   {
+                       "id":  "node",
+                       "title":  "Node.js runtime",
+                       "file":  "node.tar.gz",
+                       "installPath":  "LOOMFiles/node",
+                       "required":  true,
+                       "sha256":  "1d935329ef4b2854a95c456d6d4e0c3f606af6154e677c6cebe1828ec7a91bbc",
+                       "size":  36731989
+                   },
+                   {
+                       "id":  "openclaw-deps",
+                       "title":  "LOOM runtime dependencies",
+                       "file":  "openclaw-deps.tar.gz",
+                       "installPath":  "LOOMFiles/node_modules",
+                       "required":  true,
+                       "sha256":  "be7b699fc967e5e74041664142cf286b201cc4b2b8f633a759f5265885188dcd",
+                       "size":  66567886
+                   },
+                   {
+                       "id":  "python-runtime",
+                       "title":  "Python runtime",
+                       "file":  "python-runtime.tar.gz",
+                       "installPath":  "LOOMFiles/_up_/python-runtime",
+                       "required":  true,
+                       "sha256":  "93494f8ef1e71fb8c2de6d3e8092f75e94b0e4b14209303a2a1cd98dfc17e422",
+                       "size":  57984051
+                   }
+               ]
+}
