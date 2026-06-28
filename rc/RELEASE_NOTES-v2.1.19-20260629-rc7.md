@@ -22,4 +22,6 @@ Published: 2026-06-29
 - `scripts/build-portable.ps1` passed for `LOOM-Portable-v2.1.19-20260629-rc7`.
 - `scripts/build-online-portable.ps1` passed for `LOOM-Online-v2.1.19-20260629-rc7`.
 - `scripts/build-online-exe-installer.ps1` passed for `LOOM-Online-Setup-v2.1.19-20260629-rc7.exe`.
+- Raw GitHub download checks returned HTTP 200 for both rc7 package URLs.
+- Silent install smoke passed with custom install dir `D:\Axiangmu\AUSTART\artifacts\installer-smoke-rc7\CustomLOOM`.
 - Installer directory-page screenshot captured at `D:\Axiangmu\AUSTART\artifacts\installer-ui-rc7-dir-temp-cache.png`.
