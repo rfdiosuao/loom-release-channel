@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.19-rc.20260629.7",
-    "publishedAt":  "2026-06-28T16:40:19Z",
+    "version":  "2.1.19-rc.20260629.8",
+    "publishedAt":  "2026-06-28T17:04:07Z",
     "minLauncherVersion":  "2.1.19",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.19-20260629-rc7.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260629-rc7.zip",
-                            "sha256":  "595444602045D762A7546413977C50154A0339526EA904110C187C5485A528A6",
-                            "size":  82665876,
-                            "notes":  "rc7 updates the launcher splash to use the LOOM/麓鸣 single HTML motion asset without forced looping."
+                            "name":  "LOOM-Online-v2.1.19-20260629-rc8.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260629-rc8.zip",
+                            "sha256":  "8FC4319D633404E8D0A66DF8A9AFE0C21BD2710FA077BDA54EE886DAF5232059",
+                            "size":  82666109,
+                            "notes":  "rc8 refines the Agent installer actions and removes the remaining yellow action/warning treatment."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.19-20260629-rc7.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260629-rc7.exe",
-                             "sha256":  "068E00BD3FD1ECDA7DFF4040E59190C86ED134F20EC5DB438605253D17F3F6A4",
+                             "name":  "LOOM-Online-Setup-v2.1.19-20260629-rc8.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260629-rc8.exe",
+                             "sha256":  "D646D4171DBCC5B62859D70D69566656D0F78674478EF4657BED0D37FF9A365B",
                              "size":  69120,
                              "recommended":  true,
-                             "notes":  "Recommended rc7 one-click online installer. The directory page now separates the install location from the temporary download cache."
+                             "notes":  "Recommended rc8 one-click online installer. Agent actions now present Install, Upgrade, or Start as the green primary action."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
