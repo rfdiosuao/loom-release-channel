@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.19-rc.20260629.8",
-    "publishedAt":  "2026-06-28T17:04:07Z",
-    "minLauncherVersion":  "2.1.19",
+    "version":  "2.1.20-rc.20260629.1",
+    "publishedAt":  "2026-06-28T23:46:57Z",
+    "minLauncherVersion":  "2.1.20",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.19-20260629-rc8.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260629-rc8.zip",
-                            "sha256":  "8FC4319D633404E8D0A66DF8A9AFE0C21BD2710FA077BDA54EE886DAF5232059",
-                            "size":  82666109,
-                            "notes":  "rc8 refines the Agent installer actions and removes the remaining yellow action/warning treatment."
+                            "name":  "LOOM-Online-v2.1.20-20260629-rc1.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.20-20260629-rc1.zip",
+                            "sha256":  "5B0FE98C572623BFD8AEC17D0835245ACE2B40728C5722B4B030661D17B66655",
+                            "size":  82667123,
+                            "notes":  "2.1.20 rc1 improves agent detection fallback, installer retry behavior, and adds unified busy overlays for detection and waiting states."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.19-20260629-rc8.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260629-rc8.exe",
-                             "sha256":  "D646D4171DBCC5B62859D70D69566656D0F78674478EF4657BED0D37FF9A365B",
+                             "name":  "LOOM-Online-Setup-v2.1.20-20260629-rc1.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.20-20260629-rc1.exe",
+                             "sha256":  "02090B1DAB8B30013873427C4D61C05BC168A56BEA4D3AF1786037E2725620E5",
                              "size":  69120,
                              "recommended":  true,
-                             "notes":  "Recommended rc8 one-click online installer. Agent actions now present Install, Upgrade, or Start as the green primary action."
+                             "notes":  "Recommended 2.1.20 rc1 one-click online installer for cross-machine testing."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
