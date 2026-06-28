@@ -3,14 +3,14 @@
     "product":  "LOOM",
     "channel":  "rc",
     "version":  "2.1.19-rc.20260628",
-    "publishedAt":  "2026-06-28T13:45:00Z",
+    "publishedAt":  "2026-06-28T14:08:00Z",
     "minLauncherVersion":  "2.1.19",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.19-20260628-rc2.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260628-rc2.zip",
-                            "sha256":  "8FA04372F3EFBCA044B5625E65D2CCC7E9A2DA5CC573FBA615C163323B53A45A",
-                            "size":  21369369,
-                            "notes":  "rc2 rebuilds LOOM.exe with the current LOOM/Luming icon, splash animation, and theme logo."
+                            "name":  "LOOM-Online-v2.1.19-20260628-rc3.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260628-rc3.zip",
+                            "sha256":  "F3E4F4013C9272B197F8CFA6FBFA2ED3DF92216E80BE0132813E627A248FBD9C",
+                            "size":  82412491,
+                            "notes":  "rc3 includes the Python bridge runtime in the online package so Bridge does not fall back to system Python on first launch."
                         },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
