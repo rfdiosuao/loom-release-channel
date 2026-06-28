@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.20-rc.20260629.1",
-    "publishedAt":  "2026-06-28T23:46:57Z",
+    "version":  "2.1.20-rc.20260629.2",
+    "publishedAt":  "2026-06-28T23:58:27Z",
     "minLauncherVersion":  "2.1.20",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.20-20260629-rc1.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.20-20260629-rc1.zip",
-                            "sha256":  "5B0FE98C572623BFD8AEC17D0835245ACE2B40728C5722B4B030661D17B66655",
-                            "size":  82667123,
-                            "notes":  "2.1.20 rc1 improves agent detection fallback, installer retry behavior, and adds unified busy overlays for detection and waiting states."
+                            "name":  "LOOM-Online-v2.1.20-20260629-rc2.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.20-20260629-rc2.zip",
+                            "sha256":  "018059BEAC8DED227353045355374BDC917510C40C7FD5240A9C19EB06C7722E",
+                            "size":  86227930,
+                            "notes":  "2.1.20 rc2 keeps the rc1 launcher payload and pairs it with the cross-volume installer fix."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.20-20260629-rc1.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.20-20260629-rc1.exe",
-                             "sha256":  "02090B1DAB8B30013873427C4D61C05BC168A56BEA4D3AF1786037E2725620E5",
-                             "size":  69120,
+                             "name":  "LOOM-Online-Setup-v2.1.20-20260629-rc2.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.20-20260629-rc2.exe",
+                             "sha256":  "AAFEEFA242B26D2D497BDB4183D49CE89629FD7EFA8D887E9AE68440021F6F44",
+                             "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.20 rc1 one-click online installer for cross-machine testing."
+                             "notes":  "Recommended 2.1.20 rc2 one-click online installer. Fixes installing or upgrading into a D: drive target when the temp download directory is on C:."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
