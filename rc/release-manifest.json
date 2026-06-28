@@ -3,7 +3,7 @@
     "product":  "LOOM",
     "channel":  "rc",
     "version":  "2.1.19-rc.20260628",
-    "publishedAt":  "2026-06-28T14:08:00Z",
+    "publishedAt":  "2026-06-28T14:24:00Z",
     "minLauncherVersion":  "2.1.19",
     "launcherPackage":  {
                             "name":  "LOOM-Online-v2.1.19-20260628-rc3.zip",
@@ -12,6 +12,14 @@
                             "size":  82412491,
                             "notes":  "rc3 includes the Python bridge runtime in the online package so Bridge does not fall back to system Python on first launch."
                         },
+    "installerPackage":  {
+                             "name":  "LOOM-Online-Setup-v2.1.19-20260628-rc3.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260628-rc3.exe",
+                             "sha256":  "953D051EDD791284096E9A58A1348AB8422693FED09EE3B15B715E2581E27629",
+                             "size":  63488,
+                             "recommended":  true,
+                             "notes":  "One-click online installer. Downloads rc3 zip, verifies SHA256, installs to the user profile, creates shortcuts, and launches LOOM."
+                         },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
                 ],
