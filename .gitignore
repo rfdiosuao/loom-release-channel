@@ -1,0 +1,25 @@
+# Runtime/cache output
+*.zip
+*.7z
+*.tar
+*.tgz
+*.exe
+*.msi
+*.dmg
+*.pkg
+
+# Local state
+.installer/
+cache/
+tmp/
+logs/
+
+# Secrets
+*private*
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+

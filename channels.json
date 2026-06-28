@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "product": "LOOM",
+  "channels": {
+    "stable": {
+      "manifestUrl": "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/stable/release-manifest.json",
+      "publicKeyUrl": "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/stable/release-public-key.txt"
+    },
+    "rc": {
+      "manifestUrl": "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/release-manifest.json",
+      "publicKeyUrl": "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/release-public-key.txt"
+    }
+  }
+}
+
