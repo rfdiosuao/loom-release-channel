@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.19-rc.20260628",
-    "publishedAt":  "2026-06-28T15:05:00Z",
+    "version":  "2.1.19-rc.20260628.5",
+    "publishedAt":  "2026-06-28T15:45:12Z",
     "minLauncherVersion":  "2.1.19",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.19-20260628-rc4.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260628-rc4.zip",
-                            "sha256":  "AD708691590D678C7270BB9B1C120CD03A285A2223F238D87559681058F6DC20",
-                            "size":  82413689,
-                            "notes":  "rc4 keeps the packaged Python bridge runtime and fixes Codex detection on PCs where npm global shims are found via PATH or a custom npm prefix instead of %APPDATA%\\\\npm."
+                            "name":  "LOOM-Online-v2.1.19-20260628-rc5.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260628-rc5.zip",
+                            "sha256":  "9582B6ECBA4DBEE1678A5FAE7D31F07291D99DC44371868D139BC08B0FAE9927",
+                            "size":  82416066,
+                            "notes":  "rc5 rebuilds the launcher with the latest LOOM visual polish: looping startup motion, deep green primary actions, compact animated prerequisite checks, refreshed logo/icon assets, and the rc4 Codex detection fix."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.19-20260628-rc4.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260628-rc4.exe",
-                             "sha256":  "206BC452CFA7642F432BFC275785E561CF2D2BB26DC1CD5ACA336892ACECE852",
+                             "name":  "LOOM-Online-Setup-v2.1.19-20260628-rc5.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260628-rc5.exe",
+                             "sha256":  "4A5B5D6C90F2BD9F0EE8A8C6F26D6B50BA8613CBD41041945CDB84F35683FF55",
                              "size":  64512,
                              "recommended":  true,
-                             "notes":  "One-click online installer with selectable install directory. Downloads rc4 zip, verifies SHA256, installs to the chosen path, creates shortcuts, launches LOOM, and includes the Codex detection hotfix."
+                             "notes":  "Recommended rc5 one-click online installer. Lets the user select the install directory, downloads the rc5 online package, verifies SHA256, creates shortcuts, and launches LOOM after install."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
