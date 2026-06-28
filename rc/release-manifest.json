@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.19-rc.20260628.5",
-    "publishedAt":  "2026-06-28T15:45:12Z",
+    "version":  "2.1.19-rc.20260628.6",
+    "publishedAt":  "2026-06-28T15:58:24Z",
     "minLauncherVersion":  "2.1.19",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.19-20260628-rc5.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260628-rc5.zip",
-                            "sha256":  "9582B6ECBA4DBEE1678A5FAE7D31F07291D99DC44371868D139BC08B0FAE9927",
+                            "name":  "LOOM-Online-v2.1.19-20260628-rc6.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260628-rc6.zip",
+                            "sha256":  "725922A4615AEF2586834D1C4A1A95E267F969579F73725EC9C5E710CD45B062",
                             "size":  82416066,
-                            "notes":  "rc5 rebuilds the launcher with the latest LOOM visual polish: looping startup motion, deep green primary actions, compact animated prerequisite checks, refreshed logo/icon assets, and the rc4 Codex detection fix."
+                            "notes":  "rc6 keeps the rc5 launcher payload and repackages it under the rc6 online root for the redesigned installer."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.19-20260628-rc5.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260628-rc5.exe",
-                             "sha256":  "4A5B5D6C90F2BD9F0EE8A8C6F26D6B50BA8613CBD41041945CDB84F35683FF55",
-                             "size":  64512,
+                             "name":  "LOOM-Online-Setup-v2.1.19-20260628-rc6.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260628-rc6.exe",
+                             "sha256":  "B33BE1D0109E80BDD287178D1E963AC609A2D41959573AFD0420C1AE1157101B",
+                             "size":  69120,
                              "recommended":  true,
-                             "notes":  "Recommended rc5 one-click online installer. Lets the user select the install directory, downloads the rc5 online package, verifies SHA256, creates shortcuts, and launches LOOM after install."
+                             "notes":  "Recommended rc6 one-click online installer. Uses a classic wizard layout with LOOM/麓鸣 branding, selectable install directory, SHA256 verification, shortcuts, and launch-after-install."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
