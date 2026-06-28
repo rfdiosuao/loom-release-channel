@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.19-rc.20260628.6",
-    "publishedAt":  "2026-06-28T15:58:24Z",
+    "version":  "2.1.19-rc.20260629.7",
+    "publishedAt":  "2026-06-28T16:40:19Z",
     "minLauncherVersion":  "2.1.19",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.19-20260628-rc6.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260628-rc6.zip",
-                            "sha256":  "725922A4615AEF2586834D1C4A1A95E267F969579F73725EC9C5E710CD45B062",
-                            "size":  82416066,
-                            "notes":  "rc6 keeps the rc5 launcher payload and repackages it under the rc6 online root for the redesigned installer."
+                            "name":  "LOOM-Online-v2.1.19-20260629-rc7.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.19-20260629-rc7.zip",
+                            "sha256":  "595444602045D762A7546413977C50154A0339526EA904110C187C5485A528A6",
+                            "size":  82665876,
+                            "notes":  "rc7 updates the launcher splash to use the LOOM/麓鸣 single HTML motion asset without forced looping."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.19-20260628-rc6.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260628-rc6.exe",
-                             "sha256":  "B33BE1D0109E80BDD287178D1E963AC609A2D41959573AFD0420C1AE1157101B",
+                             "name":  "LOOM-Online-Setup-v2.1.19-20260629-rc7.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.19-20260629-rc7.exe",
+                             "sha256":  "068E00BD3FD1ECDA7DFF4040E59190C86ED134F20EC5DB438605253D17F3F6A4",
                              "size":  69120,
                              "recommended":  true,
-                             "notes":  "Recommended rc6 one-click online installer. Uses a classic wizard layout with LOOM/麓鸣 branding, selectable install directory, SHA256 verification, shortcuts, and launch-after-install."
+                             "notes":  "Recommended rc7 one-click online installer. The directory page now separates the install location from the temporary download cache."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
