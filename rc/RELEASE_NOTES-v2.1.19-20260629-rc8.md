@@ -23,4 +23,6 @@ Published: 2026-06-29
 - `scripts/build-portable.ps1` passed for `LOOM-Portable-v2.1.19-20260629-rc8`.
 - `scripts/build-online-portable.ps1` passed for `LOOM-Online-v2.1.19-20260629-rc8`.
 - `scripts/build-online-exe-installer.ps1` passed for `LOOM-Online-Setup-v2.1.19-20260629-rc8.exe`.
+- Raw GitHub download checks returned HTTP 200 for both rc8 package URLs.
+- Silent install smoke passed with custom install dir `D:\Axiangmu\AUSTART\artifacts\installer-smoke-rc8\CustomLOOM`.
 - Scanned built frontend/source for removed Agent wording and old yellow color constants.
