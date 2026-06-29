@@ -1,24 +1,24 @@
-{
+﻿{
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.22-rc.20260629.4",
-    "publishedAt":  "2026-06-29T02:28:27Z",
-    "minLauncherVersion":  "2.1.22",
+    "version":  "2.1.23-rc.20260629.1",
+    "publishedAt":  "2026-06-29T04:23:08Z",
+    "minLauncherVersion":  "2.1.23",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.22-20260629-rc4.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.22-20260629-rc4.zip",
-                            "sha256":  "86B569AD6F5E8395D5441ACE22693E3DA9F2AD3DC1DEAD8BD79A8F6ECD6B0E29",
-                            "size":  82679652,
-                            "notes":  "2.1.22 rc4 removes the legacy verification-code login from the main UI and uses relay username/email password login."
+                            "name":  "LOOM-Online-v2.1.23-20260629-rc1.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.23-20260629-rc1.zip",
+                            "sha256":  "FE3069BB97DE5961774388D41171511CB4E217DA7C320C1E64567D28EA842203",
+                            "size":  82685486,
+                            "notes":  "2.1.23 rc1 adds real Settings update actions, live theme/language switching, corrected online preflight detection, and the looping LOOM splash motion."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.22-20260629-rc4.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.22-20260629-rc4.exe",
-                             "sha256":  "D4DA908A7DAE91BFC1A21FA6BD805CC8E372BF558B58555B3FB7169459C360CF",
+                             "name":  "LOOM-Online-Setup-v2.1.23-20260629-rc1.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.23-20260629-rc1.exe",
+                             "sha256":  "90D302C8417B4FBED2C8B3466F949F96ADD612986D837507CBC8ED6CABEE7A82",
                              "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.22 rc4 one-click online installer with relay username/email login UI."
+                             "notes":  "Recommended 2.1.23 rc1 one-click online installer with selectable install directory and updated LOOM UI."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
