@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.23-rc.20260629.1",
-    "publishedAt":  "2026-06-29T04:23:08Z",
-    "minLauncherVersion":  "2.1.23",
+    "version":  "2.1.24-rc.20260629.1",
+    "publishedAt":  "2026-06-29T06:13:35Z",
+    "minLauncherVersion":  "2.1.24",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.23-20260629-rc1.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.23-20260629-rc1.zip",
-                            "sha256":  "FE3069BB97DE5961774388D41171511CB4E217DA7C320C1E64567D28EA842203",
-                            "size":  82685486,
-                            "notes":  "2.1.23 rc1 adds real Settings update actions, live theme/language switching, corrected online preflight detection, and the looping LOOM splash motion."
+                            "name":  "LOOM-Online-v2.1.24-20260629-rc1.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.24-20260629-rc1.zip",
+                            "sha256":  "7006557D278A788B2B2DEF84BC50AC8C5E53E2E4BC2F27485C51D7D54B2262A0",
+                            "size":  82682506,
+                            "notes":  "2.1.24 rc1 polishes the LOOM startup splash: source HTML motion logo is integrated, mountain mark stays static, soundwave loops smoothly, and splash readiness waits for verified iframe motion."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.23-20260629-rc1.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.23-20260629-rc1.exe",
-                             "sha256":  "90D302C8417B4FBED2C8B3466F949F96ADD612986D837507CBC8ED6CABEE7A82",
+                             "name":  "LOOM-Online-Setup-v2.1.24-20260629-rc1.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.24-20260629-rc1.exe",
+                             "sha256":  "960EF4605DDF3F758CD497CA47C2A0719F7FEB020F7B4FEDCD13F80C4DEB774D",
                              "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.23 rc1 one-click online installer with selectable install directory and updated LOOM UI."
+                             "notes":  "Recommended 2.1.24 rc1 one-click online installer with refreshed LOOM splash animation and selectable install directory."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
