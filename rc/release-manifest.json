@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.24-rc.20260629.1",
-    "publishedAt":  "2026-06-29T06:13:35Z",
-    "minLauncherVersion":  "2.1.24",
+    "version":  "2.1.26-rc.20260630.1",
+    "publishedAt":  "2026-06-29T21:28:15Z",
+    "minLauncherVersion":  "2.1.26",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.24-20260629-rc1.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.24-20260629-rc1.zip",
-                            "sha256":  "7006557D278A788B2B2DEF84BC50AC8C5E53E2E4BC2F27485C51D7D54B2262A0",
-                            "size":  82682506,
-                            "notes":  "2.1.24 rc1 polishes the LOOM startup splash: source HTML motion logo is integrated, mountain mark stays static, soundwave loops smoothly, and splash readiness waits for verified iframe motion."
+                            "name":  "LOOM-Online-v2.1.26-20260630-rc1.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.26-20260630-rc1.zip",
+                            "sha256":  "09CB930C4084524A6A55CD192CD74B16AB10261C38108B888EF8E202B5BCC055",
+                            "size":  83113239,
+                            "notes":  "2.1.26 rc1 restores the stable v1 LOOM splash motion and fixes Phone Control setup: users can enter only the phone IP, LOOM adds port 9527, and phone tasks tolerate malformed runtime-context.json caches."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.24-20260629-rc1.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.24-20260629-rc1.exe",
-                             "sha256":  "960EF4605DDF3F758CD497CA47C2A0719F7FEB020F7B4FEDCD13F80C4DEB774D",
+                             "name":  "LOOM-Online-Setup-v2.1.26-20260630-rc1.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.26-20260630-rc1.exe",
+                             "sha256":  "F67B0B16479DDCCA9A72C015AACA9D4C6ACF1738F011EC66348FBB58120D873A",
                              "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.24 rc1 one-click online installer with refreshed LOOM splash animation and selectable install directory."
+                             "notes":  "Recommended 2.1.26 rc1 one-click online installer with phone control IP-only setup and runtime-context recovery fix."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
