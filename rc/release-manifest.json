@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.21-rc.20260629.3",
-    "publishedAt":  "2026-06-29T01:14:13Z",
-    "minLauncherVersion":  "2.1.21",
+    "version":  "2.1.22-rc.20260629.4",
+    "publishedAt":  "2026-06-29T02:28:27Z",
+    "minLauncherVersion":  "2.1.22",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.21-20260629-rc3.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.21-20260629-rc3.zip",
-                            "sha256":  "744734BBA7542C49CF95C154D898B2B9D08596331DA8F306DAF3804D537CCB6D",
-                            "size":  82680549,
-                            "notes":  "2.1.21 rc3 fixes cross-drive online installation, first-run runtime layer moves, and manifest BOM parsing tolerance."
+                            "name":  "LOOM-Online-v2.1.22-20260629-rc4.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.22-20260629-rc4.zip",
+                            "sha256":  "86B569AD6F5E8395D5441ACE22693E3DA9F2AD3DC1DEAD8BD79A8F6ECD6B0E29",
+                            "size":  82679652,
+                            "notes":  "2.1.22 rc4 removes the legacy verification-code login from the main UI and uses relay username/email password login."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.21-20260629-rc3.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.21-20260629-rc3.exe",
-                             "sha256":  "397DA568480252A9DDBD10DE75629E17747CEB379DA09632AAFC6682A9EF6513",
+                             "name":  "LOOM-Online-Setup-v2.1.22-20260629-rc4.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.22-20260629-rc4.exe",
+                             "sha256":  "D4DA908A7DAE91BFC1A21FA6BD805CC8E372BF558B58555B3FB7169459C360CF",
                              "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.21 rc3 one-click online installer with directory selection, cross-drive fallback, and BOM-safe runtime manifest handling."
+                             "notes":  "Recommended 2.1.22 rc4 one-click online installer with relay username/email login UI."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
