@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.26-rc.20260630.1",
-    "publishedAt":  "2026-06-29T21:28:15Z",
-    "minLauncherVersion":  "2.1.26",
+    "version":  "2.1.27-rc.20260630.1",
+    "publishedAt":  "2026-06-29T21:53:33Z",
+    "minLauncherVersion":  "2.1.27",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.26-20260630-rc1.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.26-20260630-rc1.zip",
-                            "sha256":  "09CB930C4084524A6A55CD192CD74B16AB10261C38108B888EF8E202B5BCC055",
-                            "size":  83113239,
-                            "notes":  "2.1.26 rc1 restores the stable v1 LOOM splash motion and fixes Phone Control setup: users can enter only the phone IP, LOOM adds port 9527, and phone tasks tolerate malformed runtime-context.json caches."
+                            "name":  "LOOM-Online-v2.1.27-20260630-rc1.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.27-20260630-rc1.zip",
+                            "sha256":  "3FA8CC4605793F406BF768FCAF1D339394DE15AED6C3CE613134E11A9C5E935C",
+                            "size":  83108195,
+                            "notes":  "2.1.27 rc1 ports the proven phone-control core from the previous module: tolerant phone IP normalization, LOOM security pairing cache/cooldown, and safer runtime fallback for phone tasks."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.26-20260630-rc1.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.26-20260630-rc1.exe",
-                             "sha256":  "F67B0B16479DDCCA9A72C015AACA9D4C6ACF1738F011EC66348FBB58120D873A",
+                             "name":  "LOOM-Online-Setup-v2.1.27-20260630-rc1.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.27-20260630-rc1.exe",
+                             "sha256":  "904A27F3FFCC1BDC2F0C6964F4551FD85C29730E12CDE9D4EBF5A1B6D86EC94A",
                              "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.26 rc1 one-click online installer with phone control IP-only setup and runtime-context recovery fix."
+                             "notes":  "Recommended 2.1.27 rc1 one-click online installer with hardened Phone Control module."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
