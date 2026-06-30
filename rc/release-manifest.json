@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.30-rc.20260630.1",
-    "publishedAt":  "2026-06-30T04:33:00Z",
-    "minLauncherVersion":  "2.1.30",
+    "version":  "2.1.32-rc.20260630.1",
+    "publishedAt":  "2026-06-30T14:45:00Z",
+    "minLauncherVersion":  "2.1.32",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.30-20260630-rc1.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.30-20260630-rc1.zip",
-                            "sha256":  "5104FBBA99C2FCCA48D85DB06CDFDB0ED2A02FC6B5D95A0B6999FEAA83726BFB",
-                            "size":  83118238,
-                            "notes":  "2.1.30 rc1 keeps the built-in api.heang.top account loop and clears managed launcher Agent tokens when the user logs out."
+                            "name":  "LOOM-Online-v2.1.32-20260630-rc1-ui-stable.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.32-20260630-rc1-ui-stable.zip",
+                            "sha256":  "F3FAA9485520E389418EA654A943140222A98C7AD80EE159B863072CAA0CB4D2",
+                            "size":  83271371,
+                            "notes":  "2.1.32 rc1 tightens the demo UX: dashboard focuses on install and phone control, installer reads like a normal installer, and phone control hides engineering terminology."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.30-20260630-rc1.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.30-20260630-rc1.exe",
-                             "sha256":  "606B0336B5EA63396C42D4C9B63F1BB7F2EACB08802897E412420B35B94B45DB",
-                             "size":  69632,
+                             "name":  "LOOM-Online-Setup-v2.1.32-20260630-rc1-ui-stable.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.32-20260630-rc1-ui-stable.exe",
+                             "sha256":  "C2D41E5C39EE6E0A2795D0259D321778FB6F1B478141701654904AD0CE7DBF02",
+                             "size":  70144,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.30 rc1 one-click online installer with logout cleanup for managed model and phone Agent configuration."
+                             "notes":  "Recommended 2.1.32 rc1 one-click online installer for first public UX testing."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
