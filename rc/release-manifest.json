@@ -3,22 +3,22 @@
     "product":  "LOOM",
     "channel":  "rc",
     "version":  "2.1.32-rc.20260630.1",
-    "publishedAt":  "2026-06-30T14:45:00Z",
+    "publishedAt":  "2026-06-30T18:59:43Z",
     "minLauncherVersion":  "2.1.32",
     "launcherPackage":  {
                             "name":  "LOOM-Online-v2.1.32-20260630-rc1-ui-stable.zip",
                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.32-20260630-rc1-ui-stable.zip",
-                            "sha256":  "F3FAA9485520E389418EA654A943140222A98C7AD80EE159B863072CAA0CB4D2",
-                            "size":  83271371,
-                            "notes":  "2.1.32 rc1 tightens the demo UX: dashboard focuses on install and phone control, installer reads like a normal installer, and phone control hides engineering terminology."
+                            "sha256":  "BAEAE35D41C213CD14EDFFF747081B8834AC24513666BAA47E0DE64A0FD9211B",
+                            "size":  69049107,
+                            "notes":  "2.1.32 rc1 full rebuild refresh: package UI displays LOOM 2.1.32, install/phone/account paths were rechecked, and MCP version now follows package.json."
                         },
     "installerPackage":  {
                              "name":  "LOOM-Online-Setup-v2.1.32-20260630-rc1-ui-stable.exe",
                              "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.32-20260630-rc1-ui-stable.exe",
-                             "sha256":  "C2D41E5C39EE6E0A2795D0259D321778FB6F1B478141701654904AD0CE7DBF02",
+                             "sha256":  "860F39893CD8C7428BE52D7634E572469670CB1BF0A33ABDF39B6ED9C21BBD7A",
                              "size":  70144,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.32 rc1 one-click online installer for first public UX testing."
+                             "notes":  "Recommended 2.1.32 rc1 one-click online installer refreshed against the full rebuild package."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
