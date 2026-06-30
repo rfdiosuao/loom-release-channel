@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.28-rc.20260630.1",
-    "publishedAt":  "2026-06-30T02:42:14Z",
-    "minLauncherVersion":  "2.1.28",
+    "version":  "2.1.29-rc.20260630.1",
+    "publishedAt":  "2026-06-30T03:05:55Z",
+    "minLauncherVersion":  "2.1.29",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.28-20260630-rc1.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.28-20260630-rc1.zip",
-                            "sha256":  "EC14DE3D3AA055C526DB2F3EDA819D50F7417BD8A09CDB5A120736482203CF00",
-                            "size":  83115296,
-                            "notes":  "2.1.28 rc1 adds the built-in api.heang.top account loop: email verification registration, password login, native subscription snapshot, model sync, and managed defaults for LOOM and Phone Agent."
+                            "name":  "LOOM-Online-v2.1.29-20260630-rc1.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.29-20260630-rc1.zip",
+                            "sha256":  "3227944633248CC60F467B1A77F6BD0CEC6F1F99E9655DA79E4D995A4154305F",
+                            "size":  83117346,
+                            "notes":  "2.1.29 rc1 keeps the built-in api.heang.top account loop and hides unsupported passwordless verification login from the UI; email verification remains available for registration."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.28-20260630-rc1.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.28-20260630-rc1.exe",
-                             "sha256":  "4236EB247994563743213AB9A8D5DF6B1229AA1DAC01C27A8D8094B322786445",
+                             "name":  "LOOM-Online-Setup-v2.1.29-20260630-rc1.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.29-20260630-rc1.exe",
+                             "sha256":  "42B0FAA56D99B1358C701A25CD0AF588BD72B99903085983E72FA4E0F75B592C",
                              "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.28 rc1 one-click online installer with built-in relay account registration, login, subscription, and model sync."
+                             "notes":  "Recommended 2.1.29 rc1 one-click online installer with account UI tightened to password login plus email-code registration."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
