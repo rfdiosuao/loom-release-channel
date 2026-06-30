@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.29-rc.20260630.1",
-    "publishedAt":  "2026-06-30T03:05:55Z",
-    "minLauncherVersion":  "2.1.29",
+    "version":  "2.1.30-rc.20260630.1",
+    "publishedAt":  "2026-06-30T04:33:00Z",
+    "minLauncherVersion":  "2.1.30",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.29-20260630-rc1.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.29-20260630-rc1.zip",
-                            "sha256":  "3227944633248CC60F467B1A77F6BD0CEC6F1F99E9655DA79E4D995A4154305F",
-                            "size":  83117346,
-                            "notes":  "2.1.29 rc1 keeps the built-in api.heang.top account loop and hides unsupported passwordless verification login from the UI; email verification remains available for registration."
+                            "name":  "LOOM-Online-v2.1.30-20260630-rc1.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.30-20260630-rc1.zip",
+                            "sha256":  "5104FBBA99C2FCCA48D85DB06CDFDB0ED2A02FC6B5D95A0B6999FEAA83726BFB",
+                            "size":  83118238,
+                            "notes":  "2.1.30 rc1 keeps the built-in api.heang.top account loop and clears managed launcher Agent tokens when the user logs out."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.29-20260630-rc1.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.29-20260630-rc1.exe",
-                             "sha256":  "42B0FAA56D99B1358C701A25CD0AF588BD72B99903085983E72FA4E0F75B592C",
+                             "name":  "LOOM-Online-Setup-v2.1.30-20260630-rc1.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.30-20260630-rc1.exe",
+                             "sha256":  "606B0336B5EA63396C42D4C9B63F1BB7F2EACB08802897E412420B35B94B45DB",
                              "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.29 rc1 one-click online installer with account UI tightened to password login plus email-code registration."
+                             "notes":  "Recommended 2.1.30 rc1 one-click online installer with logout cleanup for managed model and phone Agent configuration."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
