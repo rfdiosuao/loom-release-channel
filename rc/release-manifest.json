@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.36-rc.20260701.1",
-    "publishedAt":  "2026-07-01T08:08:27Z",
-    "minLauncherVersion":  "2.1.36",
+    "version":  "2.1.37-rc.20260701.1",
+    "publishedAt":  "2026-07-01T08:43:10Z",
+    "minLauncherVersion":  "2.1.37",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.36-20260701-rc1-adversarial-fixes.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.36-20260701-rc1-adversarial-fixes.zip",
-                            "sha256":  "33AE29170FE24115216DA5ED9A5161984ABFA62A4857231F9F9ACCCF85C241A2",
-                            "size":  69130562,
-                            "notes":  "2.1.36 rc1: adversarial review fixes for preflight cache, model wiring, phone config trust, install safety, and release checks."
+                            "name":  "LOOM-Online-v2.1.37-20260701-rc1-wallet-url.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.37-20260701-rc1-wallet-url.zip",
+                            "sha256":  "0B9AABD7E7CBF44D06542FB79B034FB3364B023BC8197DF4E8A480F5DE36F9EE",
+                            "size":  69082374,
+                            "notes":  "2.1.37 rc1: fixes the subscription entry to open api.heang.top/wallet and keeps old topup links redirected away from 404."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.36-20260701-rc1-adversarial-fixes.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.36-20260701-rc1-adversarial-fixes.exe",
-                             "sha256":  "CD5A1FDA6EF33F5E74C0263477AD4E2A70DEB61A3B4FE3D644E3DB8B2EDC72CF",
+                             "name":  "LOOM-Online-Setup-v2.1.37-20260701-rc1-wallet-url.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.37-20260701-rc1-wallet-url.exe",
+                             "sha256":  "0604EEC0A1E455FA21BCFD5974610565CAF1FBE9675E3247916B4F7D7B4FD179",
                              "size":  70144,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.36 rc1 one-click online installer."
+                             "notes":  "Recommended 2.1.37 rc1 one-click online installer."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
