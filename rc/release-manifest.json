@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.34-rc.20260701.19",
-    "publishedAt":  "2026-07-01T04:54:38Z",
-    "minLauncherVersion":  "2.1.34",
+    "version":  "2.1.35-rc.20260701.1",
+    "publishedAt":  "2026-07-01T07:36:57Z",
+    "minLauncherVersion":  "2.1.35",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.34-20260701-rc19-phone-config-export.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.34-20260701-rc19-phone-config-export.zip",
-                            "sha256":  "54B9789A30032DFF8D433C5EC497D5371FECCD13EB05A32EB9FAE825FECF9C7D",
-                            "size":  69143872,
-                            "notes":  "2.1.34 rc19: phone control now trusts APKClaw LLM export when the phone is already configured, avoiding false model_not_configured blocks after manual phone-side setup."
+                            "name":  "LOOM-Online-v2.1.35-20260701-rc1.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.35-20260701-rc1.zip",
+                            "sha256":  "4ADB84BAAA753CE35E5DCCCC9CA35F92D1C83A5F8A7B57D9EF3F71A612182BE0",
+                            "size":  68997793,
+                            "notes":  "2.1.35 rc1: install-page preflight cache, custom model selection, Codex/Claude model config, and demo stability fixes."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.34-20260701-rc19-phone-config-export.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.34-20260701-rc19-phone-config-export.exe",
-                             "sha256":  "47DADBF4F60EA1EDC7735CF89E0289A0267AFAB99B47222D8FC4906B162EC664",
-                             "size":  70144,
+                             "name":  "LOOM-Online-Setup-v2.1.35-20260701-rc1.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.35-20260701-rc1.exe",
+                             "sha256":  "C01F2D2418854088C5A9911A524849E8184846275813C905FDC27C69C59A3499",
+                             "size":  69632,
                              "recommended":  true,
-                             "notes":  "Recommended rc19 one-click online installer; fixes false phone model-not-configured gating."
+                             "notes":  "Recommended 2.1.35 rc1 one-click online installer."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
