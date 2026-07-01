@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.38-rc.20260701.1",
-    "publishedAt":  "2026-07-01T09:39:08Z",
-    "minLauncherVersion":  "2.1.38",
+    "version":  "2.1.40-rc.20260702.1",
+    "publishedAt":  "2026-07-01T16:22:54Z",
+    "minLauncherVersion":  "2.1.40",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.38-20260701-rc1-account-codex-gates.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.38-20260701-rc1-account-codex-gates.zip",
-                            "sha256":  "3D7835476B85A01231C0C9D417ECBD7A19AB0F12A176E907A508C6E06A1FC22B",
-                            "size":  69144456,
-                            "notes":  "2.1.38 rc1: restores gated Agent/Matrix entries, fixes NewAPI email-code error handling, and writes Codex/Claude/opencode model env keys during account sync."
+                            "name":  "LOOM-Online-v2.1.40-20260702-rc1-p0-stabilization.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc1-p0-stabilization.zip",
+                            "sha256":  "13403BF424717EEFBDB47BEF8BB42C70FC1EF46465A64CC7BC3455CDE6C31CF5",
+                            "size":  69131559,
+                            "notes":  "2.1.40 rc1: P0 stabilization for cached prerequisite detection, custom/NewAPI model configuration, phone connection/task states, and backend-backed matrix workbench."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.38-20260701-rc1-account-codex-gates.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.38-20260701-rc1-account-codex-gates.exe",
-                             "sha256":  "F8E27E6543B1C972E623672A1AAC67550944B7700FDC12707CDC195A5F7C9C9F",
-                             "size":  70144,
+                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc1-p0-stabilization.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc1-p0-stabilization.exe",
+                             "sha256":  "CD6A0ADFB62C4E24A03057F478D18754AF405CCF08B00AD8C7178A5BAA8449EF",
+                             "size":  70656,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.38 rc1 one-click online installer."
+                             "notes":  "Recommended 2.1.40 rc1 one-click online installer."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
