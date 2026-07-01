@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.37-rc.20260701.1",
-    "publishedAt":  "2026-07-01T08:43:10Z",
-    "minLauncherVersion":  "2.1.37",
+    "version":  "2.1.38-rc.20260701.1",
+    "publishedAt":  "2026-07-01T09:39:08Z",
+    "minLauncherVersion":  "2.1.38",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.37-20260701-rc1-wallet-url.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.37-20260701-rc1-wallet-url.zip",
-                            "sha256":  "0B9AABD7E7CBF44D06542FB79B034FB3364B023BC8197DF4E8A480F5DE36F9EE",
-                            "size":  69082374,
-                            "notes":  "2.1.37 rc1: fixes the subscription entry to open api.heang.top/wallet and keeps old topup links redirected away from 404."
+                            "name":  "LOOM-Online-v2.1.38-20260701-rc1-account-codex-gates.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.38-20260701-rc1-account-codex-gates.zip",
+                            "sha256":  "3D7835476B85A01231C0C9D417ECBD7A19AB0F12A176E907A508C6E06A1FC22B",
+                            "size":  69144456,
+                            "notes":  "2.1.38 rc1: restores gated Agent/Matrix entries, fixes NewAPI email-code error handling, and writes Codex/Claude/opencode model env keys during account sync."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.37-20260701-rc1-wallet-url.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.37-20260701-rc1-wallet-url.exe",
-                             "sha256":  "0604EEC0A1E455FA21BCFD5974610565CAF1FBE9675E3247916B4F7D7B4FD179",
+                             "name":  "LOOM-Online-Setup-v2.1.38-20260701-rc1-account-codex-gates.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.38-20260701-rc1-account-codex-gates.exe",
+                             "sha256":  "F8E27E6543B1C972E623672A1AAC67550944B7700FDC12707CDC195A5F7C9C9F",
                              "size":  70144,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.37 rc1 one-click online installer."
+                             "notes":  "Recommended 2.1.38 rc1 one-click online installer."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
