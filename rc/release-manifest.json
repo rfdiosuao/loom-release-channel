@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.32-rc.20260630.1",
-    "publishedAt":  "2026-06-30T18:59:43Z",
-    "minLauncherVersion":  "2.1.32",
+    "version":  "2.1.34-rc.20260701.17",
+    "publishedAt":  "2026-07-01T03:12:04Z",
+    "minLauncherVersion":  "2.1.34",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.32-20260630-rc1-ui-stable.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.32-20260630-rc1-ui-stable.zip",
-                            "sha256":  "BAEAE35D41C213CD14EDFFF747081B8834AC24513666BAA47E0DE64A0FD9211B",
-                            "size":  69049107,
-                            "notes":  "2.1.32 rc1 full rebuild refresh: package UI displays LOOM 2.1.32, install/phone/account paths were rechecked, and MCP version now follows package.json."
+                            "name":  "LOOM-Online-v2.1.34-20260701-rc17-phone-apk-url.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.34-20260701-rc17-phone-apk-url.zip",
+                            "sha256":  "3C6A5C9D912EE86A42D662C5F67104FBDB5526DBDB986F07D1109BD2269EE11E",
+                            "size":  69099556,
+                            "notes":  "2.1.34 rc17 refresh: updates APKClaw phone App download QR/link to OpenClaw-AgentPhone.apk and keeps rc16 preflight cache fixes."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.32-20260630-rc1-ui-stable.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.32-20260630-rc1-ui-stable.exe",
-                             "sha256":  "860F39893CD8C7428BE52D7634E572469670CB1BF0A33ABDF39B6ED9C21BBD7A",
+                             "name":  "LOOM-Online-Setup-v2.1.34-20260701-rc17-phone-apk-url.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.34-20260701-rc17-phone-apk-url.exe",
+                             "sha256":  "ACA79C81201DA5FAADCDDC6FA0ABFAE0C45FD8A623499D24A86F1EA4616D5730",
                              "size":  70144,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.32 rc1 one-click online installer refreshed against the full rebuild package."
+                             "notes":  "Recommended rc17 one-click online installer; downloads the rc17 online package from the GitHub RC channel."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
