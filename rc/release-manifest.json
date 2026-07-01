@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.35-rc.20260701.1",
-    "publishedAt":  "2026-07-01T07:36:57Z",
-    "minLauncherVersion":  "2.1.35",
+    "version":  "2.1.36-rc.20260701.1",
+    "publishedAt":  "2026-07-01T08:08:27Z",
+    "minLauncherVersion":  "2.1.36",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.35-20260701-rc1.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.35-20260701-rc1.zip",
-                            "sha256":  "4ADB84BAAA753CE35E5DCCCC9CA35F92D1C83A5F8A7B57D9EF3F71A612182BE0",
-                            "size":  68997793,
-                            "notes":  "2.1.35 rc1: install-page preflight cache, custom model selection, Codex/Claude model config, and demo stability fixes."
+                            "name":  "LOOM-Online-v2.1.36-20260701-rc1-adversarial-fixes.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.36-20260701-rc1-adversarial-fixes.zip",
+                            "sha256":  "33AE29170FE24115216DA5ED9A5161984ABFA62A4857231F9F9ACCCF85C241A2",
+                            "size":  69130562,
+                            "notes":  "2.1.36 rc1: adversarial review fixes for preflight cache, model wiring, phone config trust, install safety, and release checks."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.35-20260701-rc1.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.35-20260701-rc1.exe",
-                             "sha256":  "C01F2D2418854088C5A9911A524849E8184846275813C905FDC27C69C59A3499",
-                             "size":  69632,
+                             "name":  "LOOM-Online-Setup-v2.1.36-20260701-rc1-adversarial-fixes.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.36-20260701-rc1-adversarial-fixes.exe",
+                             "sha256":  "CD5A1FDA6EF33F5E74C0263477AD4E2A70DEB61A3B4FE3D644E3DB8B2EDC72CF",
+                             "size":  70144,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.35 rc1 one-click online installer."
+                             "notes":  "Recommended 2.1.36 rc1 one-click online installer."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
