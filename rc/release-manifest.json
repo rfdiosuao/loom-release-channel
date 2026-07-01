@@ -2,23 +2,23 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.34-rc.20260701.17",
-    "publishedAt":  "2026-07-01T03:12:04Z",
+    "version":  "2.1.34-rc.20260701.18",
+    "publishedAt":  "2026-07-01T04:20:57Z",
     "minLauncherVersion":  "2.1.34",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.34-20260701-rc17-phone-apk-url.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.34-20260701-rc17-phone-apk-url.zip",
-                            "sha256":  "3C6A5C9D912EE86A42D662C5F67104FBDB5526DBDB986F07D1109BD2269EE11E",
-                            "size":  69099556,
-                            "notes":  "2.1.34 rc17 refresh: updates APKClaw phone App download QR/link to OpenClaw-AgentPhone.apk and keeps rc16 preflight cache fixes."
+                            "name":  "LOOM-Online-v2.1.34-20260701-rc18-subscription-phone-sync-cache.zip",
+                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.34-20260701-rc18-subscription-phone-sync-cache.zip",
+                            "sha256":  "EA337EC5A53E0F3F08D2DE85745EC704A4A0DB430C7A059F39AF629005151B77",
+                            "size":  69214450,
+                            "notes":  "2.1.34 rc18: fixes preflight cache reuse after warn status, subscription entry fallback away from /topup 404, and phone model sync/import into APKClaw before tasks."
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.34-20260701-rc17-phone-apk-url.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.34-20260701-rc17-phone-apk-url.exe",
-                             "sha256":  "ACA79C81201DA5FAADCDDC6FA0ABFAE0C45FD8A623499D24A86F1EA4616D5730",
-                             "size":  70144,
+                             "name":  "LOOM-Online-Setup-v2.1.34-20260701-rc18-subscription-phone-sync-cache.exe",
+                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.34-20260701-rc18-subscription-phone-sync-cache.exe",
+                             "sha256":  "B3B45BFEE6BFCCE2785001F7C3083A6D3F6A83A681626EE4B67996E2B984400E",
+                             "size":  70656,
                              "recommended":  true,
-                             "notes":  "Recommended rc17 one-click online installer; downloads the rc17 online package from the GitHub RC channel."
+                             "notes":  "Recommended rc18 one-click online installer; downloads the rc18 online package from the GitHub RC channel."
                          },
     "mirrors":  [
                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
