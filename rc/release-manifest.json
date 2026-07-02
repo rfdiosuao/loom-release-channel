@@ -2,30 +2,30 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.40-rc.20260702.4",
-    "publishedAt":  "2026-07-02T00:55:10Z",
+    "version":  "2.1.40-rc.20260702.5",
+    "publishedAt":  "2026-07-02T03:09:14Z",
     "minLauncherVersion":  "2.1.40",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.40-20260702-rc4-cn-mirror-curl.zip",
-                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.40-20260702-rc4-cn-mirror-curl.zip",
-                            "sha256":  "AF69E037656510ED267B09232B4DC33B9C3841A29D4586CC3EDA3427FD0C31EF",
-                            "size":  69117403,
-                            "notes":  "2.1.40 rc4: domestic server first release channel; online installer uses system curl with slow-source fallback.",
+                            "name":  "LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip",
+                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip",
+                            "sha256":  "49C92C8503020020696B0BD2F8D4500DB9B2ED8E34A498BDF010D47ED1BAEFC9",
+                            "size":  69091522,
+                            "notes":  "2.1.40 rc5: NewAPI model configuration now prefers a dedicated LOOM Launcher token, avoiding agnes-only default keys when configuring Codex or Claude Code.",
                             "fallbackUrls":  [
-                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc4-cn-mirror-curl.zip",
-                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc4-cn-mirror-curl.zip"
+                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip",
+                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip"
                                              ]
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc4-cn-mirror-curl.exe",
-                             "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc4-cn-mirror-curl.exe",
-                             "sha256":  "F7339D254F66AF52565D7B5AC542A22A8CC83EC8E8ECE3ABD868429C82CDEC76",
+                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe",
+                             "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe",
+                             "sha256":  "DBDBE865FF3E1C86BA71CF29A399487FE26E52DF700D64E6541FC99B53968431",
                              "size":  72192,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.40 rc4 one-click online installer; tries LOOM server, GitHub raw, then accelerated GitHub, with curl slow-source fallback.",
+                             "notes":  "Recommended 2.1.40 rc5 one-click online installer; domestic mirror first, GitHub raw and accelerated GitHub fallback.",
                              "fallbackUrls":  [
-                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc4-cn-mirror-curl.exe",
-                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc4-cn-mirror-curl.exe"
+                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe",
+                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe"
                                               ]
                          },
     "mirrors":  [

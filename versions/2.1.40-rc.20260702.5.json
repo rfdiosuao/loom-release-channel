@@ -1,0 +1,10 @@
+﻿{
+    "schemaVersion":  1,
+    "product":  "LOOM",
+    "channel":  "rc",
+    "version":  "2.1.40-rc.20260702.5",
+    "package":  "LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip",
+    "installer":  "LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe",
+    "publishedAt":  "2026-07-02T03:09:14Z",
+    "notes":  "NewAPI dedicated launcher token selection for Codex / Claude Code model configuration."
+}
