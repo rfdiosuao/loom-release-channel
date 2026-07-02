@@ -1,0 +1,10 @@
+﻿{
+    "schemaVersion":  1,
+    "product":  "LOOM",
+    "channel":  "rc",
+    "version":  "2.1.40-rc.20260702.6",
+    "package":  "LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip",
+    "installer":  "LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe",
+    "publishedAt":  "2026-07-02T06:26:33Z",
+    "notes":  "LOOM Command Brain: CLI/MCP catalog, ADB doctor, Codex/Claude orchestration prompts, and rc5 NewAPI key selection retained."
+}

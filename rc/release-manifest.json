@@ -1,31 +1,31 @@
-{
+﻿{
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.40-rc.20260702.5",
-    "publishedAt":  "2026-07-02T03:09:14Z",
+    "version":  "2.1.40-rc.20260702.6",
+    "publishedAt":  "2026-07-02T06:26:33Z",
     "minLauncherVersion":  "2.1.40",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip",
-                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip",
-                            "sha256":  "49C92C8503020020696B0BD2F8D4500DB9B2ED8E34A498BDF010D47ED1BAEFC9",
-                            "size":  69091522,
-                            "notes":  "2.1.40 rc5: NewAPI model configuration now prefers a dedicated LOOM Launcher token, avoiding agnes-only default keys when configuring Codex or Claude Code.",
+                            "name":  "LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip",
+                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip",
+                            "sha256":  "D1D796C126E4D221A8F4C7EF6040ADAFC300F7730605BFBBA3955CEA421EAC64",
+                            "size":  69126750,
+                            "notes":  "2.1.40 rc6: adds the LOOM Command Brain CLI/MCP catalog and ADB doctor entry for Codex/Claude orchestration while preserving the rc5 NewAPI key selection fixes.",
                             "fallbackUrls":  [
-                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip",
-                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc5-newapi-key.zip"
+                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip",
+                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip"
                                              ]
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe",
-                             "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe",
-                             "sha256":  "DBDBE865FF3E1C86BA71CF29A399487FE26E52DF700D64E6541FC99B53968431",
+                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe",
+                             "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe",
+                             "sha256":  "480ACC36DE57B55B083D15FFE2CD6D139C555EB6BEAB432F1601069116F0E5D2",
                              "size":  72192,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.40 rc5 one-click online installer; domestic mirror first, GitHub raw and accelerated GitHub fallback.",
+                             "notes":  "Recommended 2.1.40 rc6 one-click online installer; domestic mirror first, GitHub raw and accelerated GitHub fallback.",
                              "fallbackUrls":  [
-                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe",
-                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc5-newapi-key.exe"
+                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe",
+                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe"
                                               ]
                          },
     "mirrors":  [
