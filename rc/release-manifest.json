@@ -2,30 +2,30 @@
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.40-rc.20260702.2",
-    "publishedAt":  "2026-07-02T00:23:03Z",
+    "version":  "2.1.40-rc.20260702.3",
+    "publishedAt":  "2026-07-02T00:39:34Z",
     "minLauncherVersion":  "2.1.40",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.40-20260702-rc2-cn-mirror.zip",
-                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.40-20260702-rc2-cn-mirror.zip",
-                            "sha256":  "A906BA02D0E7E9AC25B2621462BF499826CA7528888EC76CF1A0A15F947988D3",
-                            "size":  69081928,
-                            "notes":  "2.1.40 rc2: domestic server first release channel with GitHub and accelerated GitHub fallback mirrors.",
+                            "name":  "LOOM-Online-v2.1.40-20260702-rc3-cn-mirror-timeout.zip",
+                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.40-20260702-rc3-cn-mirror-timeout.zip",
+                            "sha256":  "57ACBFDB4094BA140B121A065D1D89F94E5A094B2951C132664148B984F25DED",
+                            "size":  69138688,
+                            "notes":  "2.1.40 rc3: domestic server first release channel; online installer adds per-channel timeout to avoid stalled downloads.",
                             "fallbackUrls":  [
-                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc2-cn-mirror.zip",
-                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc2-cn-mirror.zip"
+                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc3-cn-mirror-timeout.zip",
+                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc3-cn-mirror-timeout.zip"
                                              ]
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc2-cn-mirror.exe",
-                             "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc2-cn-mirror.exe",
-                             "sha256":  "1648AF18023B52E542897F56F089BE7B0A14DAB3A3F6C5E4CA3B5A56160263DB",
-                             "size":  71168,
+                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc3-cn-mirror-timeout.exe",
+                             "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc3-cn-mirror-timeout.exe",
+                             "sha256":  "00F5964053AC1DEB854E319D6CE6A7046A9BA2F328A3EE8AEC247B7F5E867CA8",
+                             "size":  71680,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.40 rc2 one-click online installer; package download tries domestic server, GitHub raw, then accelerated GitHub.",
+                             "notes":  "Recommended 2.1.40 rc3 one-click online installer; package download tries domestic server, GitHub raw, then accelerated GitHub with per-channel timeout.",
                              "fallbackUrls":  [
-                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc2-cn-mirror.exe",
-                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc2-cn-mirror.exe"
+                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc3-cn-mirror-timeout.exe",
+                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc3-cn-mirror-timeout.exe"
                                               ]
                          },
     "mirrors":  [
