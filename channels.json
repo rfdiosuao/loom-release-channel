@@ -1,15 +1,19 @@
-{
-  "schemaVersion": 1,
-  "product": "LOOM",
-  "channels": {
-    "stable": {
-      "manifestUrl": "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/stable/release-manifest.json",
-      "publicKeyUrl": "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/stable/release-public-key.txt"
-    },
-    "rc": {
-      "manifestUrl": "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/release-manifest.json",
-      "publicKeyUrl": "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/release-public-key.txt"
-    }
-  }
+﻿{
+    "schemaVersion":  1,
+    "product":  "LOOM",
+    "channels":  {
+                     "stable":  {
+                                    "manifestUrl":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/stable/release-manifest.json",
+                                    "publicKeyUrl":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/stable/release-public-key.txt"
+                                },
+                     "rc":  {
+                                "manifestUrl":  "https://api.heang.top/downloads/loom/rc/release-manifest.json",
+                                "publicKeyUrl":  "https://api.heang.top/downloads/loom/rc/release-public-key.txt",
+                                "manifestUrls":  [
+                                                     "https://api.heang.top/downloads/loom/rc/release-manifest.json",
+                                                     "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/release-manifest.json",
+                                                     "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/release-manifest.json"
+                                                 ]
+                            }
+                 }
 }
-

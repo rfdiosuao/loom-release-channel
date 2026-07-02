@@ -1,27 +1,37 @@
-{
+﻿{
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.40-rc.20260702.1",
-    "publishedAt":  "2026-07-01T16:22:54Z",
+    "version":  "2.1.40-rc.20260702.2",
+    "publishedAt":  "2026-07-02T00:23:03Z",
     "minLauncherVersion":  "2.1.40",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.40-20260702-rc1-p0-stabilization.zip",
-                            "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc1-p0-stabilization.zip",
-                            "sha256":  "13403BF424717EEFBDB47BEF8BB42C70FC1EF46465A64CC7BC3455CDE6C31CF5",
-                            "size":  69131559,
-                            "notes":  "2.1.40 rc1: P0 stabilization for cached prerequisite detection, custom/NewAPI model configuration, phone connection/task states, and backend-backed matrix workbench."
+                            "name":  "LOOM-Online-v2.1.40-20260702-rc2-cn-mirror.zip",
+                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.40-20260702-rc2-cn-mirror.zip",
+                            "sha256":  "A906BA02D0E7E9AC25B2621462BF499826CA7528888EC76CF1A0A15F947988D3",
+                            "size":  69081928,
+                            "notes":  "2.1.40 rc2: domestic server first release channel with GitHub and accelerated GitHub fallback mirrors.",
+                            "fallbackUrls":  [
+                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc2-cn-mirror.zip",
+                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc2-cn-mirror.zip"
+                                             ]
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc1-p0-stabilization.exe",
-                             "url":  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc1-p0-stabilization.exe",
-                             "sha256":  "CD6A0ADFB62C4E24A03057F478D18754AF405CCF08B00AD8C7178A5BAA8449EF",
-                             "size":  70656,
+                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc2-cn-mirror.exe",
+                             "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc2-cn-mirror.exe",
+                             "sha256":  "1648AF18023B52E542897F56F089BE7B0A14DAB3A3F6C5E4CA3B5A56160263DB",
+                             "size":  71168,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.40 rc1 one-click online installer."
+                             "notes":  "Recommended 2.1.40 rc2 one-click online installer; package download tries domestic server, GitHub raw, then accelerated GitHub.",
+                             "fallbackUrls":  [
+                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc2-cn-mirror.exe",
+                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc2-cn-mirror.exe"
+                                              ]
                          },
     "mirrors":  [
-                    "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
+                    "https://api.heang.top/downloads/loom/rc/layers/v2.1.19/",
+                    "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/",
+                    "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/layers/v2.1.19/"
                 ],
     "layers":  [
                    {
