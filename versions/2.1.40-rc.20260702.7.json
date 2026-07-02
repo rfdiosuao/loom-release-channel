@@ -1,0 +1,10 @@
+{
+    "schemaVersion":  1,
+    "product":  "LOOM",
+    "channel":  "rc",
+    "version":  "2.1.40-rc.20260702.7",
+    "package":  "LOOM-Online-v2.1.40-20260702-rc7-prereq-fix.zip",
+    "installer":  "LOOM-Online-Setup-v2.1.40-20260702-rc7-prereq-fix.exe",
+    "publishedAt":  "2026-07-02T08:55:00Z",
+    "notes":  "LOOM rc7 prerequisite fix: one-click prerequisite repair, private npm agent prefix, public Gitee split-part online installer, and silent-mode diagnostics."
+}

@@ -1,0 +1,10 @@
+{
+    "schemaVersion":  1,
+    "product":  "LOOM",
+    "channel":  "rc",
+    "version":  "2.1.41-rc.20260702.1",
+    "package":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip",
+    "installer":  "LOOM-Online-Setup-v2.1.41-20260702-rc1-model-login-fix.exe",
+    "publishedAt":  "2026-07-02T10:45:00Z",
+    "notes":  "2.1.41 rc1: fixes NewAPI email-code login bridge, managed/custom model filtering, creative image/video independent loading, matrix phone App entry, and Agent access Skill path."
+}

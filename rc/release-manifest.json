@@ -1,31 +1,99 @@
-﻿{
+{
     "schemaVersion":  1,
     "product":  "LOOM",
     "channel":  "rc",
-    "version":  "2.1.40-rc.20260702.6",
-    "publishedAt":  "2026-07-02T06:26:33Z",
-    "minLauncherVersion":  "2.1.40",
+    "version":  "2.1.41-rc.20260702.1",
+    "publishedAt":  "2026-07-02T10:45:00Z",
+    "minLauncherVersion":  "2.1.41",
     "launcherPackage":  {
-                            "name":  "LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip",
-                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip",
-                            "sha256":  "D1D796C126E4D221A8F4C7EF6040ADAFC300F7730605BFBBA3955CEA421EAC64",
-                            "size":  69126750,
-                            "notes":  "2.1.40 rc6: adds the LOOM Command Brain CLI/MCP catalog and ADB doctor entry for Codex/Claude orchestration while preserving the rc5 NewAPI key selection fixes.",
+                            "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip",
+                            "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip",
+                            "sha256":  "2883EB1DFE3CAA9EEED843D73023BDB23C970CCD24111C139AD3167761E7E329",
+                            "size":  69143241,
+                            "notes":  "2.1.41 rc1: fixes NewAPI email-code login bridge, managed/custom model filtering, creative image/video independent loading, matrix phone App entry, and Agent access Skill path.",
+                            "giteeParts":  [
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part001",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part001",
+                                                   "sha256":  "D789DE9FDBA58CBA5E25B4DE4E2B5DC1331AE542D9149FB4AA5BCE48A8210ACF",
+                                                   "size":  8388608
+                                               },
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part002",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part002",
+                                                   "sha256":  "6FEA16408454F6728B2BD879249FB557426EE27382802637F22BA8F05292800D",
+                                                   "size":  8388608
+                                               },
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part003",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part003",
+                                                   "sha256":  "E891BE055685B3ACFD71DB874869B45526D757F28A5478910EEE76A6B8663E06",
+                                                   "size":  8388608
+                                               },
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part004",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part004",
+                                                   "sha256":  "4D21CFA3F4688CBFE6143151AB757A0FDB351C7DD465214E705D948715E2DF9E",
+                                                   "size":  8388608
+                                               },
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part005",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part005",
+                                                   "sha256":  "DB5D427E8A3F2F1FE8F0BB0F2BDE5AB61D2FDD57F419B85EBC0F6F183E427D4C",
+                                                   "size":  8388608
+                                               },
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part006",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part006",
+                                                   "sha256":  "FAEA6FC7F097B7CD1D6D319A74CC7F625AC4C78C24B41578087DECF151B101CF",
+                                                   "size":  8388608
+                                               },
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part007",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part007",
+                                                   "sha256":  "88B0700D1D98C6F7D8D9C037DE07D27B12A0232186B8D383F92C9C9CAF8ADCB1",
+                                                   "size":  8388608
+                                               },
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part008",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part008",
+                                                   "sha256":  "E52A94997BF119C2DD69AB56E6E5EDD4894E6CA32299837665B0B17FB30E6DD4",
+                                                   "size":  8388608
+                                               },
+                                               {
+                                                   "name":  "LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part009",
+                                                   "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part009",
+                                                   "sha256":  "54796BFCBE77715DA76AA1F70014ED1DA4A3FC3C6A35351851E79AB7F8172677",
+                                                   "size":  2034377
+                                               }
+                                           ],
                             "fallbackUrls":  [
-                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip",
-                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.40-20260702-rc6-command-brain.zip"
+                                                 "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip",
+                                                 "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip"
                                              ]
                         },
     "installerPackage":  {
-                             "name":  "LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe",
-                             "url":  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe",
-                             "sha256":  "480ACC36DE57B55B083D15FFE2CD6D139C555EB6BEAB432F1601069116F0E5D2",
-                             "size":  72192,
+                             "name":  "LOOM-Online-Setup-v2.1.41-20260702-rc1-model-login-fix.exe",
+                             "url":  "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-Setup-v2.1.41-20260702-rc1-model-login-fix.exe",
+                             "sha256":  "6CEE80C01C83C61AEB39819F48CBFA4C78ECC2AD110E846D570CB3AC174AF45E",
+                             "size":  75776,
                              "recommended":  true,
-                             "notes":  "Recommended 2.1.40 rc6 one-click online installer; domestic mirror first, GitHub raw and accelerated GitHub fallback.",
+                             "notes":  "Recommended 2.1.41 rc1 one-click online Setup; Gitee split parts first, api.heang.top and GitHub raw as fallbacks.",
+                             "packagePartUrls":  [
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part001",
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part002",
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part003",
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part004",
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part005",
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part006",
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part007",
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part008",
+                                                     "https://gitee.com/rfdiosuao/lumiapkclaw/raw/loom-release-channel/rc/packages/LOOM-Online-v2.1.41-20260702-rc1-model-login-fix.zip.part009"
+                                                 ],
                              "fallbackUrls":  [
-                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe",
-                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.40-20260702-rc6-command-brain.exe"
+                                                  "https://api.heang.top/downloads/loom/rc/packages/LOOM-Online-Setup-v2.1.41-20260702-rc1-model-login-fix.exe",
+                                                  "https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.41-20260702-rc1-model-login-fix.exe",
+                                                  "https://ghfast.top/https://raw.githubusercontent.com/rfdiosuao/loom-release-channel/main/rc/packages/LOOM-Online-Setup-v2.1.41-20260702-rc1-model-login-fix.exe"
                                               ]
                          },
     "mirrors":  [
